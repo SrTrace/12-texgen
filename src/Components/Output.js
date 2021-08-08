@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Output = () => {
+const Output = ({text}) => {
+
     return (
         <div className="well output">
-            some text
+            {text}
         </div>
     );
 };
